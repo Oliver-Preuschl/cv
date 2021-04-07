@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>{{ page.title }}</title>
+  <!--<script src="https://kit.fontawesome.com/a44158174f.js" crossorigin="anonymous"></script>-->
+  <link href="/assets/css/all.css" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="/assets/css/style.css">
+</head>
+<body>
+<section class="page">
+  <div class="resume">
+    <div class="sidebar shadow">
+      {% include basics.html %}
+      {% include certifications.html %}
+    </div>
+    <div class="main">
+      {% include header.html %}
+      {% include education.html %}
+      {% include work.html %}
+      {% include projects.html %}
+      {% include publications.html %}
+    </div>
+  </div>
+</section>
+<footer>
+</footer>
+</body>
+</html>

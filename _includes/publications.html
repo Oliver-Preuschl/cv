@@ -1,0 +1,26 @@
+{% assign publications = site.data.data.publications %}
+{% if publications %}
+
+<div class="section">
+  <div class="section-header">
+    Publications
+  </div>
+  <div class="content">
+    {% for publication in publications %}
+    <div class="card shadow">
+      <div class="card-header">
+        <a href="{{ publication.url }}" target="_blank">
+          {{ publication.name }} | {{ publication.publisher }}
+        </a>
+      </div>
+      <div class="body">
+        <a href="{{ publication.url }}" target="_blank">
+          {{ publication.summary }}
+        </a>
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+</div>
+
+{% endif %}

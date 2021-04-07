@@ -1,0 +1,15 @@
+{% assign certifications = site.data.data.certifications %}
+{% if certifications %}
+
+<div class="header">
+  Certifications
+</div>
+{% for certification in certifications %}
+<div class="certification">
+  <a href="{{ certification.url }}" target="_blank">
+    {{ certification.name }} | {{ certification.issuer }}
+  </a>
+</div>
+{% endfor %}
+
+{% endif %}

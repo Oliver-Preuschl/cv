@@ -1,0 +1,26 @@
+{% assign work = site.data.data.work %}
+{% if work %}
+
+<div class="section">
+  <div class="section-header">
+    Work
+  </div>
+  <div class="content">
+    {% for workItem in work %}
+    <div class="card shadow">
+      <div class="card-header">
+        <a href="{{ workItem.url }}" target="_blank">
+          {{ workItem.name }}
+        </a>
+      </div>
+      <div class="body">
+        <a href="{{ workItem.url }}" target="_blank">
+          {{ workItem.startDate }} - {{ workItem.endDate }} | {{ workItem.position }}
+        </a>
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+</div>
+
+{% endif %}

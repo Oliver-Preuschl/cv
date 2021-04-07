@@ -1,0 +1,31 @@
+{% assign projects = site.data.data.projects %}
+{% if projects %}
+
+<div class="section">
+  <div class="section-header">
+    Projects
+  </div>
+  <div class="content">
+    {% for project in projects %}
+    <div class="card shadow">
+      <div class="card-header">
+        <a href="{{ project.url }}" target="_blank">
+          {{ project.name }} | {{ project.type }}
+        </a>
+      </div>
+      <div class="body">
+        <a href="{{ project.url }}" target="_blank">
+          {{ project.description }}
+        </a>
+      </div>
+      <div class="card-footer">
+        <a href="{{ project.url }}" target="_blank">
+          {{ project.keywords }}
+        </a>
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+</div>
+
+{% endif %}

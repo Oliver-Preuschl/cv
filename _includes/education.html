@@ -1,0 +1,28 @@
+{% assign education = site.data.data.education %}
+{% if education %}
+
+<div class="section">
+  <div class="section-header">
+    Education
+  </div>
+  <div class="content">
+    {% for educationItem in education %}
+    <div class="card shadow">
+      <div class="card-header">
+        <a href="{{ educationItem.url }}" target="_blank">
+          {{ educationItem.studyType }}
+        </a>
+      </div>
+      <div class="body">
+        <a href="{{ educationItem.url }}" target="_blank">
+          {{ educationItem.startDate }} - {{ educationItem.endDate }} | {{ educationItem.area }} |
+          {{
+          educationItem.institution }}
+        </a>
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+</div>
+
+{% endif %}

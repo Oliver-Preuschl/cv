@@ -1,0 +1,298 @@
+{
+  "basics": {
+    "name": "Oliver Preuschl",
+    "label": "Technical Architect | Head of Technology",
+    "image": "",
+    "email": "oliver.preuschl@rwth-aachen.de",
+    "phone": "0049 176 62723919",
+    "location": {
+      "address": "Maria-Hilf-Str. 1",
+      "postalCode": "50677",
+      "city": "Cologne",
+      "countryCode": "DE",
+      "region": "NRW"
+    },
+    "profiles": [
+      {
+        "network": "github",
+        "username": "Oliver_Preuschl",
+        "url": "https://github.com/Oliver-Preuschl"
+      },
+      {
+        "network": "linkedin",
+        "username": "oliver-preuschl-064276a7",
+        "url": "https://www.linkedin.com/in/oliver-preuschl-064276a7"
+      },
+      {
+        "network": "xing",
+        "username": "Oliver_Preuschl",
+        "url": "https://www.xing.com/profile/Oliver_Preuschl/cv"
+      },
+      {
+        "network": "salesforce",
+        "username": "opreuschl",
+        "url": "https://trailblazer.me/id/opreuschl"
+      }
+    ]
+  },
+  "languages": [
+    {
+      "language": "German",
+      "fluency": "Native speaker"
+    },
+    {
+      "language": "English",
+      "fluency": "Fluent"
+    }
+  ],
+  "education": [
+    {
+      "institution": "RWTH Aachen University",
+      "url": "https://www.rwth-aachen.de",
+      "area": "Computer Science",
+      "studyType": "Diplom-Informatiker",
+      "startDate": "October 2001",
+      "endDate": "December 2009",
+      "score": "1.7"
+    }
+  ],
+  "work": [
+    {
+      "name": "H+W Consult GmbH",
+      "position": "Technical Architect | Head of Technology",
+      "description": "Salesforce Partner since 2001",
+      "startDate": "April 2019",
+      "endDate": "today",
+      "url": "https://hundw.de"
+    },
+    {
+      "name": "H+W Consult GmbH",
+      "position": "Technical Architect",
+      "startDate": "Januaryy 2012",
+      "endDate": "March 2019",
+      "description": "Salesforce Partner since 2001",
+      "highlights": [
+        "Planning, conception and implementation of projects in the Salesforce.com area",
+        "Execution of trainings and workshops",
+        "Development of internal structures & frameworks"
+      ],
+      "url": "https://hundw.de"
+    },
+    {
+      "name": "Mindsquare GmbH",
+      "position": "SAP Netweaver Consultant",
+      "startDate": "October 2010",
+      "endDate": "December 2011",
+      "description": "SAP and Salesforce Partner",
+      "highlights": [
+        "Consulting and software development (SAP, Salesforce)"
+      ],
+      "url": "http://mindsquare.de"
+    },
+    {
+      "name": "Rechen- und Kommunikationszentrum der RWTH Aachen",
+      "position": "Student Assistant, Research Assistant, Research Employee",
+      "startDate": "March 2005",
+      "endDate": "December 20010",
+      "description": "",
+      "highlights": [
+        "Administration & analysis of linux based grid computing software",
+        "Further development of the software which I developed during my diploma thesis in close collaboration with the excellence cluster \"Integrative Produktionstechnik für Hochlohnländer\""
+      ],
+      "url": "https://www.itc.rwth-aachen.de"
+    }
+  ],
+  "certifications": [
+    {
+      "name": "ISAQB Cretified Professional for Software Architecture",
+      "issuer": "ISAQB"
+    },
+    {
+      "name": "Salesforce.com Certified  Administrator",
+      "issuer": "Salesforce.com",
+      "url": "https://trailhead.salesforce.com/credentials/certification-detail-print?searchString=5FWIhfEMTsDNgntekRFApR3G5NhfHOMlKW0u5sDbOzBKCaxSXUiiED6p2EQ+4vQr"
+    },
+    {
+      "name": "Salesforce Certified Advanced Administrator",
+      "issuer": "Salesforce.com",
+      "url": "https://trailhead.salesforce.com/credentials/certification-detail-print?searchString=5FWIhfEMTsDNgntekRFApR3G5NhfHOMlKW0u5sDbOzBKCaxSXUiiED6p2EQ+4vQr"
+    },
+    {
+      "name": "Salesforce Certified Plattform App Builder",
+      "issuer": "Salesforce.com",
+      "url": "https://trailhead.salesforce.com/credentials/certification-detail-print?searchString=5FWIhfEMTsDNgntekRFApR3G5NhfHOMlKW0u5sDbOzBKCaxSXUiiED6p2EQ+4vQr"
+    },
+    {
+      "name": "Salesforce Certified Plattform Developer 1",
+      "issuer": "Salesforce.com",
+      "url": "https://trailhead.salesforce.com/credentials/certification-detail-print?searchString=5FWIhfEMTsDNgntekRFApR3G5NhfHOMlKW0u5sDbOzBKCaxSXUiiED6p2EQ+4vQr"
+    },
+    {
+      "name": "Salesforce Certified Plattform Developer 2",
+      "issuer": "Salesforce.com",
+      "url": "https://trailhead.salesforce.com/credentials/certification-detail-print?searchString=5FWIhfEMTsDNgntekRFApR3G5NhfHOMlKW0u5sDbOzBKCaxSXUiiED6p2EQ+4vQr"
+    },
+    {
+      "name": "Salesforce Certified JavaScript Developer I",
+      "issuer": "Salesforce.com",
+      "url": "https://trailhead.salesforce.com/credentials/certification-detail-print?searchString=5FWIhfEMTsDNgntekRFApR3G5NhfHOMlKW0u5sDbOzBKCaxSXUiiED6p2EQ+4vQr"
+    },
+    {
+      "name": "Salesforce Certified Sales Cloud Consultant",
+      "issuer": "Salesforce.com",
+      "url": "https://trailhead.salesforce.com/credentials/certification-detail-print?searchString=5FWIhfEMTsDNgntekRFApR3G5NhfHOMlKW0u5sDbOzBKCaxSXUiiED6p2EQ+4vQr"
+    },
+    {
+      "name": "Salesforce Certified Community Cloud Consultant",
+      "issuer": "Salesforce.com",
+      "url": "https://trailhead.salesforce.com/credentials/certification-detail-print?searchString=5FWIhfEMTsDNgntekRFApR3G5NhfHOMlKW0u5sDbOzBKCaxSXUiiED6p2EQ+4vQr"
+    },
+    {
+      "name": "Salesforce Certified Data Architecture and Management Designer",
+      "issuer": "Salesforce.com",
+      "url": "https://trailhead.salesforce.com/credentials/certification-detail-print?searchString=5FWIhfEMTsDNgntekRFApR3G5NhfHOMlKW0u5sDbOzBKCaxSXUiiED6p2EQ+4vQr"
+    },
+    {
+      "name": "Salesforce Certified Sharing and Visibility Designer",
+      "issuer": "Salesforce.com",
+      "url": "https://trailhead.salesforce.com/credentials/certification-detail-print?searchString=5FWIhfEMTsDNgntekRFApR3G5NhfHOMlKW0u5sDbOzBKCaxSXUiiED6p2EQ+4vQr"
+    },
+    {
+      "name": "Salesforce Certified Application Architect",
+      "issuer": "Salesforce.com",
+      "url": "https://trailhead.salesforce.com/credentials/certification-detail-print?searchString=5FWIhfEMTsDNgntekRFApR3G5NhfHOMlKW0u5sDbOzBKCaxSXUiiED6p2EQ+4vQr"
+    },
+    {
+      "name": "Salesforce Certified Integration Architecture Designer",
+      "issuer": "Salesforce.com",
+      "url": "https://trailhead.salesforce.com/credentials/certification-detail-print?searchString=5FWIhfEMTsDNgntekRFApR3G5NhfHOMlKW0u5sDbOzBKCaxSXUiiED6p2EQ+4vQr"
+    },
+    {
+      "name": "Salesforce Certified Development Lifecycle and Deployment Designer",
+      "issuer": "Salesforce.com",
+      "url": "https://trailhead.salesforce.com/credentials/certification-detail-print?searchString=5FWIhfEMTsDNgntekRFApR3G5NhfHOMlKW0u5sDbOzBKCaxSXUiiED6p2EQ+4vQr"
+    },
+    {
+      "name": "Salesforce Certified Identity and Access Management Designer",
+      "issuer": "Salesforce.com",
+      "url": "https://trailhead.salesforce.com/credentials/certification-detail-print?searchString=5FWIhfEMTsDNgntekRFApR3G5NhfHOMlKW0u5sDbOzBKCaxSXUiiED6p2EQ+4vQr"
+    },
+    {
+      "name": "Salesforce Certified System Architect",
+      "issuer": "Salesforce.com",
+      "url": "https://trailhead.salesforce.com/credentials/certification-detail-print?searchString=5FWIhfEMTsDNgntekRFApR3G5NhfHOMlKW0u5sDbOzBKCaxSXUiiED6p2EQ+4vQr"
+    },
+    {
+      "name": "Steelbrick Certified Admin",
+      "issuer": "Steelbrick"
+    }
+  ],
+  "skills": [
+    {
+      "name": "Salesforce Architecture"
+    },
+    {
+      "name": "Salesforce Development"
+    },
+    {
+      "name": "Salesforce Administration"
+    },
+    {
+      "name": "Sales Cloud"
+    },
+    {
+      "name": "Service Cloud"
+    },
+    {
+      "name": "Community Cloud"
+    },
+    {
+      "name": "CPQ"
+    },
+    {
+      "name": "Salesforce Identity"
+    },
+    {
+      "name": "Salesforce Connect"
+    },
+    {
+      "name": "SFDX"
+    },
+    {
+      "name": "CI/CD"
+    },
+    {
+      "name": "GitHub Actions"
+    },
+    {
+      "name": "Web Development"
+    },
+    {
+      "name": "Heroku"
+    },
+    {
+      "name": "Integration"
+    },
+    {
+      "name": "UML"
+    },
+    {
+      "name": "BPMN"
+    }
+  ],
+  "projects": [
+    {
+      "name": "DocXpert - Company",
+      "type": "Application",
+      "keywords": "Salesforce, LWC, Apex",
+      "description": "Native Docx and PDF Generation in Salesforce using Merge Templates"
+    },
+    {
+      "name": "sfdx-package-dev-template - Private",
+      "type": "CI/CD Template",
+      "keywords": "SFDX, GitHub Actions",
+      "description": "Open Source Project - Template for a CI/CD supported Salesforce package creation development workflow",
+      "url": "https://github.com/Oliver-Preuschl/sfdx-package-dev-template"
+    },
+    {
+      "name": "sfdx-alfred - Private",
+      "type": "Library",
+      "keywords": "SFDX, Alfred, Node.js",
+      "description": "Open Source Project - Alfred 4 SFDX Package Development Workflow",
+      "url": "https://github.com/Oliver-Preuschl/alfred-sfdx"
+    },
+    {
+      "name": "lwc-das - Private",
+      "type": "Library",
+      "keywords": "Salesforce, LWC, Javascript",
+      "description": "Open Source Project - Loose Coupling of LWCs in the Salesforce Lightning App Builder using Distributed Application State Management",
+      "url": "https://github.com/Oliver-Preuschl/lwc-das"
+    },
+    {
+      "name": "EmailLiveConnect for Gmail - Private™",
+      "type": "Application",
+      "keywords": "Salesforce, AppExchange",
+      "description": "Salesforce Gmail Integration",
+      "url": "https://appexchange.salesforce.com/listingDetail?listingId=a0N3A00000EFnDoUAL"
+    }
+  ],
+  "publications": [
+    {
+      "name": "Loose Coupling of LWCs in the Lightning App Builder - Private",
+      "publisher": "Medium",
+      "summary": "Loose Coupling of LWCs in the Salesforce Lightning App Builder using Distributed Application State Management",
+      "url": "https://medium.com/@olli_19962/loose-coupling-of-lwcs-in-the-lightning-app-builder-a1b37cad3575"
+    },
+    {
+      "name": "Enhanced Deployment via Visual Hierarchical Comparison of Salesforce Orgs - Private",
+      "publisher": "Dreamforce",
+      "summary": "Dreamforce Presentation - CoDeDo (Salesforce Release Management POC)",
+      "url": "http://dreamforce.vidyard.com/watch/ThmLcSzJteILo8WcELnrfA"
+    },
+    {
+      "name": "Collaborative parametrization of dynamic simulation workflows - Private",
+      "publisher": "RWTH Aachen University",
+      "summary": "Diploma Thesis"
+    }
+  ]
+}
