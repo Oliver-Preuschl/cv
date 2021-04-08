@@ -18,6 +18,15 @@
           {{ workItem.startDate }} - {{ workItem.endDate }} | {{ workItem.position }}
         </a>
       </div>
+      <div class="card-body-details">
+        <ul>
+          {% for highlight in workItem.highlights %}
+          <li>
+            {{ highlight }}
+          </li>
+          {% endfor %}
+        </ul>
+      </div>
     </div>
     {% endfor %}
   </div>

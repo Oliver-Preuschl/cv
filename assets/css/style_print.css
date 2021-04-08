@@ -20,7 +20,6 @@ body {
 }
 
 .shadow {
-  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
 }
 
 .sidebar {
@@ -208,16 +207,6 @@ body {
   margin-top: 3mm;
 }
 
-.main .section .card .card-body-details{
-  margin-top: 3mm;
-  border-left: 3px solid rgba(255, 255, 255, 0.5);
-  padding-left: 1mm;
-}
-
-.main .section .card .card-body-details ul{
-  list-style-type: circle;
-}
-
 .main .section .card .card-footer {
   margin-top: 3mm;
   font-style: italic;
@@ -255,5 +244,4 @@ ul {
   margin: 0;
   padding: 0;
   list-style-type: none;
-  list-style-position: outside;
 }
