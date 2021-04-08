@@ -6,7 +6,7 @@
 <div class="header">
   Contact
 </div>
-<div class="item">
+<div class="basic">
   <div class="icon">
       <span class="fa-stack" style="vertical-align: top;">
       <i class="fas fa-city fa-lg"></i>
@@ -23,7 +23,7 @@
     </ul>
   </div>
 </div>
-<div class="item">
+<div class="basic">
   <div class="icon">
     <a href="tel:{{ basics.phone }}" target="_blank">
       <span class="fa-stack" style="vertical-align: top;">
@@ -41,7 +41,7 @@
     </ul>
   </div>
 </div>
-<div class="item">
+<div class="basic">
   <div class="icon">
     <a href="mailto:{{ basics.email }}" target="_blank">
       <span class="fa-stack" style="vertical-align: top;">
@@ -60,7 +60,7 @@
   </div>
 </div>
 {% for profile in basics.profiles %}
-<div class="item">
+<div class="basic">
   <div class="icon">
     <a href="{{ profile.url }}" target="_blank">
       <span class="fa-stack" style="vertical-align: top;">

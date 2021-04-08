@@ -40,7 +40,7 @@ body {
   background-position: center;
   position: relative;
   width: 100%;
-  height: 65mm;
+  height: 85mm;
 }
 
 .sidebar .header {
@@ -56,38 +56,72 @@ body {
   width: 100%;
 }
 
-.sidebar .item {
-  width: 90%;
+.sidebar .basic {
+  width: calc(100% - 10mm);
   margin-top: 3mm;
-  padding-left: 5%;
-  padding-right: 5%;
+  padding-left: 5mm;
+  padding-right: 5mm;
   float: left;
 }
 
-.sidebar .item .icon {
+.sidebar .basic .icon {
   width: 20%;
   float: left;
-  text-align: center;
+  text-align: left;
+  color: rgba(255, 255, 255, 0.5);
 }
 
-.sidebar .item .text {
+.sidebar .basic .text {
   display: block;
   float: right;
   width: 75%;
   padding-right: 0;
   padding-top: 0;
+  font-weight: 400;
 }
 
-.sidebar .certification{
+.sidebar .language {
+  width: calc(100% - 10mm);
+  margin-top: 3mm;
+  margin-left: 5mm;
+  margin-right: 5mm;
+  float: left;
+}
+
+.sidebar .language .language-left {
+  width: 20%;
+  float: left;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.sidebar .language .language-right {
+  width: 75%;
+  float: right;
+  text-align: left;
+}
+
+.sidebar .certification {
   margin-left: 5mm;
   margin-top: 3mm;
   float: left;
   width: calc(100% - 10mm);
+  padding-left: 0.5mm;
+  border-left: 3px solid rgba(255, 255, 255, 0.5);
 }
 
-.sidebar a {
-  color: rgba(255, 255, 255, 0.75);
-  text-decoration: none;
+.sidebar .skills {
+  margin-left: 5mm;
+  margin-right: 5mm;
+}
+
+.sidebar .skills .skill {
+  display: block;
+  float: left;
+  border: 1px solid rgba(255, 255, 255, 0.75);
+  margin-top: 1mm;
+  margin-right: 1mm;
+  padding: 1mm;
 }
 
 .main {
@@ -138,17 +172,32 @@ body {
   margin-left: 5mm;
   margin-bottom: 5mm;
   page-break-inside: avoid;
+  float: left;
 }
 
 .main .section .card .card-header {
-  margin-bottom: 3mm;
   font-weight: 500;
+}
+
+.main .section .card .card-header .card-header-left {
+  float: left;
+}
+
+.main .section .card .card-header .card-header-right {
+  float: right;
+  font-weight: 300;
+}
+
+.main .section .card .card-body {
+  float: left;
+  margin-top: 3mm;
 }
 
 .main .section .card .card-footer {
   margin-top: 3mm;
   font-style: italic;
   color: rgba(255, 255, 255, 0.5);
+  float: left;
 }
 
 a {
@@ -175,7 +224,6 @@ li {
   margin: 0;
   padding: 0;
   font-size: 10pt;
-  font-weight: 300;
   list-style-type: none;
 }
 

@@ -9,11 +9,19 @@
     {% for project in projects %}
     <div class="card shadow">
       <div class="card-header">
-        <a href="{{ project.url }}" target="_blank">
-          {{ project.name }} | {{ project.type }}
-        </a>
+        <span class="card-header-left">
+          <a href="{{ project.url }}" target="_blank">
+            {{ project.name }}
+          </a>
+        </span>
+        <span class="card-header-right">
+          <a href="{{ project.url }}" target="_blank">
+            {{ project.type }}
+          </a>
+        </span>
       </div>
-      <div class="body">
+      <div class="card-body">
+        <span></span>
         <a href="{{ project.url }}" target="_blank">
           {{ project.description }}
         </a>

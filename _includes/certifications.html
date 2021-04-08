@@ -7,7 +7,7 @@
 {% for certification in certifications %}
 <div class="certification">
   <a href="{{ certification.url }}" target="_blank">
-    {{ certification.name }} | {{ certification.issuer }}
+    {{ certification.issuer }} {{ certification.name }}
   </a>
 </div>
 {% endfor %}
