@@ -9,7 +9,7 @@ body {
 
 .page {
   width: 210mm;
-  height: 594mm;
+  height: 891mm;
   background: #f5f5f5;
 }
 
@@ -160,7 +160,7 @@ body {
   font-size: 10pt;
   font-weight: 500;
   text-align: center;
-  margin-top: 9mm;
+  margin-top: 4.5mm;
   margin-bottom: 4.5mm;
   float: left;
   width: 100%;
@@ -205,6 +205,19 @@ body {
 
 .main .section .card .card-body {
   margin-top: 3mm;
+  overflow: hidden;
+}
+
+.main .section .card .card-body .card-body-left {
+  float: left;
+  width: 50%;
+  text-align: left;
+}
+
+.main .section .card .card-body .card-body-right {
+  float: right;
+  width: 50%;
+  text-align: left;
 }
 
 .main .section .card .card-body-details{

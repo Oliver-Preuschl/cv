@@ -7,29 +7,27 @@
   </div>
   <div class="content">
     {% for workItem in work %}
-    <div class="card shadow">
-      <div class="card-header">
-        <a href="{{ workItem.url }}" target="_blank">
+    <a href="{{ workItem.url }}" target="_blank">
+      <div class="card shadow">
+        <div class="card-header">
           {{ workItem.name }}
-        </a>
-      </div>
-      <div class="card-body">
-        <a href="{{ workItem.url }}" target="_blank">
+        </div>
+        <div class="card-body">
           {{ workItem.startDate }} - {{ workItem.endDate }} | {{ workItem.position }}
-        </a>
-      </div>
-      <div class="card-body-details">
-        <ul>
-          {% for highlight in workItem.highlights %}
-          <li>
+        </div>
+        <div class="card-body-details">
+          <ul>
+            {% for highlight in workItem.highlights %}
+            <li>
             <span>
               {{ highlight }}
             </span>
-          </li>
-          {% endfor %}
-        </ul>
+            </li>
+            {% endfor %}
+          </ul>
+        </div>
       </div>
-    </div>
+    </a>
     {% endfor %}
   </div>
 </div>

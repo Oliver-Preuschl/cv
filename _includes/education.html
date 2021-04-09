@@ -7,20 +7,22 @@
   </div>
   <div class="content">
     {% for educationItem in education %}
-    <div class="card shadow">
-      <div class="card-header">
-        <a href="{{ educationItem.url }}" target="_blank">
+    <a href="{{ educationItem.url }}" target="_blank">
+      <div class="card shadow">
+        <div class="card-header">
           {{ educationItem.studyType }}
-        </a>
+        </div>
+        <div class="card-body">
+        <span class="card-body-left">
+            {{ educationItem.startDate }} - {{ educationItem.endDate }}
+        </span>
+          <span class="card-body-right">
+            {% if educationItem.area %} {{ educationItem.area }} | {% endif %}
+            {{ educationItem.institution }}
+        </span>
+        </div>
       </div>
-      <div class="card-body">
-        <a href="{{ educationItem.url }}" target="_blank">
-          {{ educationItem.startDate }} - {{ educationItem.endDate }} | {{ educationItem.area }} |
-          {{
-          educationItem.institution }}
-        </a>
-      </div>
-    </div>
+    </a>
     {% endfor %}
   </div>
 </div>

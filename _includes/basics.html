@@ -24,59 +24,53 @@
   </div>
 </div>
 <div class="basic">
-  <div class="icon">
-    <a href="tel:{{ basics.phone }}" target="_blank">
+  <a href="tel:{{ basics.phone }}" target="_blank">
+    <div class="icon">
       <span class="fa-stack" style="vertical-align: top;">
       <i class="fas fa-phone fa-lg"></i>
       </span>
-    </a>
-  </div>
-  <div class="text">
-    <ul>
-      <li>
-        <a href="tel:{{ basics.phone }}" target="_blank">
+    </div>
+    <div class="text">
+      <ul>
+        <li>
           {{ basics.phone }}
-        </a>
-      </li>
-    </ul>
-  </div>
+        </li>
+      </ul>
+    </div>
+  </a>
 </div>
 <div class="basic">
-  <div class="icon">
-    <a href="mailto:{{ basics.email }}" target="_blank">
+  <a href="mailto:{{ basics.email }}" target="_blank">
+    <div class="icon">
       <span class="fa-stack" style="vertical-align: top;">
       <i class="fas fa-at fa-lg"></i>
       </span>
-    </a>
-  </div>
-  <div class="text">
-    <ul>
-      <li>
-        <a href="mailto:{{ basics.email }}" target="_blank">
+    </div>
+    <div class="text">
+      <ul>
+        <li>
           {{ basics.email }}
-        </a>
-      </li>
-    </ul>
-  </div>
+        </li>
+      </ul>
+    </div>
+  </a>
 </div>
 {% for profile in basics.profiles %}
 <div class="basic">
-  <div class="icon">
-    <a href="{{ profile.url }}" target="_blank">
+  <a href="{{ profile.url }}" target="_blank">
+    <div class="icon">
       <span class="fa-stack" style="vertical-align: top;">
       <i class="fab fa-{{ profile.network }} fa-lg"></i>
       </span>
-    </a>
-  </div>
-  <div class="text">
-    <ul>
-      <li>
-        <a href="{{ profile.url }}" target="_blank">
+    </div>
+    <div class="text">
+      <ul>
+        <li>
           {{ profile.username }}
-        </a>
-      </li>
-    </ul>
-  </div>
+        </li>
+      </ul>
+    </div>
+  </a>
 </div>
 {% endfor %}
 {% endif %}

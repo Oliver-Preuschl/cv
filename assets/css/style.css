@@ -163,7 +163,7 @@ body {
   font-size: 10pt;
   font-weight: 500;
   text-align: center;
-  margin-top: 9mm;
+  margin-top: 4.5mm;
   margin-bottom: 4.5mm;
   float: left;
   width: 100%;
@@ -208,17 +208,30 @@ body {
 
 .main .section .card .card-body {
   margin-top: 3mm;
+  overflow: hidden;
 }
 
-.main .section .card .card-body-details{
+.main .section .card .card-body .card-body-left {
+  float: left;
+  width: 50%;
+  text-align: left;
+}
+
+.main .section .card .card-body .card-body-right {
+  float: right;
+  width: 50%;
+  text-align: left;
+}
+
+.main .section .card .card-body-details {
   margin-top: 3mm;
   padding-left: 1mm;
 }
 
-.main .section .card .card-body-details ul{
+.main .section .card .card-body-details ul {
 }
 
-.main .section .card .card-body-details li{
+.main .section .card .card-body-details li {
   display: list-item;
   list-style-type: square;
 }

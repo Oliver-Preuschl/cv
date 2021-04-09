@@ -77,16 +77,16 @@
       "name": "SFDX"
     },
     {
-      "name": "CI/CD"
-    },
-    {
-      "name": "GitHub Actions"
+      "name": "Heroku"
     },
     {
       "name": "Web Development"
     },
     {
-      "name": "Heroku"
+      "name": "CI/CD"
+    },
+    {
+      "name": "GitHub Actions"
     },
     {
       "name": "Integration"
@@ -96,6 +96,9 @@
     },
     {
       "name": "BPMN"
+    },
+    {
+      "name": "Agile"
     }
   ],
   "certifications": [
@@ -192,6 +195,21 @@
       "startDate": "October 2001",
       "endDate": "December 2009",
       "score": "1.7"
+    },
+    {
+      "institution": "Cusanus Gymnasium Erkelenz",
+      "url": "https://cusanus-gymnasium.eu",
+      "studyType": "Allgemeine Hochschulreife (Abitur)",
+      "startDate": "September 1992",
+      "endDate": "June 2000",
+      "score": "3.3"
+    },
+    {
+      "institution": "Carl-Fuhlrott-Gymnasium Wuppertal",
+      "url": "http://cfg.wtal.de",
+      "studyType": "Allgemeine Hochschulreife",
+      "startDate": "August 1991",
+      "endDate": "June 1992"
     }
   ],
   "work": [
@@ -210,9 +228,14 @@
       "endDate": "March 2019",
       "description": "Salesforce Partner since 2001",
       "highlights": [
-        "Planning, conception and implementation of projects in the Salesforce.com area",
-        "Execution of trainings and workshops",
-        "Development of internal structures & frameworks"
+        "DocXpert - App Developement - Native Docx and PDF generation in Salesforce using merge templates",
+        "Development of developer supporting toolkits and frameworks (TriggerDispatcher, Logging, TestData, BatchJob, Rest Service, UI Controls, Application State, ...)",
+        "Development of internal tools (naming conventions, CI/CD pipelines, ...)",
+        "Prototype Development",
+        "Implementation of a bonus card program | Retail | Identity, Community, Service, Integrations | > 1 Million Users",
+        "Implementation of an identity provider to consolidate several logins for apps, websites, order systems, ... | Soccer Club | Identity, Community, Service, Integrations | > 200000 Million Users",
+        "Service Cloud Implementation | Beverage | Service, Integrations, Mobile App",
+        "..."
       ],
       "url": "https://hundw.de"
     },
@@ -223,7 +246,10 @@
       "endDate": "December 2011",
       "description": "SAP and Salesforce Partner",
       "highlights": [
-        "Consulting and software development (SAP, Salesforce)"
+        "Consulting, conception and implementation of customer projects",
+        "App development (Force.com, AppExchange)",
+        "Salesforce - SAP integrations",
+        "Implementation of the internal CRM system"
       ],
       "url": "http://mindsquare.de"
     },
@@ -241,12 +267,6 @@
     }
   ],
   "projects": [
-    {
-      "name": "DocXpert",
-      "type": "Application | Company",
-      "keywords": "Salesforce, LWC, Apex",
-      "description": "Native Docx and PDF Generation in Salesforce using Merge Templates"
-    },
     {
       "name": "sfdx-package-dev-template",
       "type": "CI/CD Template | Private",

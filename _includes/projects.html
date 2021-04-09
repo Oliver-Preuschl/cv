@@ -7,31 +7,25 @@
   </div>
   <div class="content">
     {% for project in projects %}
-    <div class="card shadow">
-      <div class="card-header">
+    <a href="{{ project.url }}" target="_blank">
+      <div class="card shadow">
+        <div class="card-header">
         <span class="card-header-left">
-          <a href="{{ project.url }}" target="_blank">
             {{ project.name }}
-          </a>
         </span>
-        <span class="card-header-right">
-          <a href="{{ project.url }}" target="_blank">
+          <span class="card-header-right">
             {{ project.type }}
-          </a>
         </span>
-      </div>
-      <div class="card-body">
-        <span></span>
-        <a href="{{ project.url }}" target="_blank">
+        </div>
+        <div class="card-body">
+          <span></span>
           {{ project.description }}
-        </a>
-      </div>
-      <div class="card-footer">
-        <a href="{{ project.url }}" target="_blank">
+        </div>
+        <div class="card-footer">
           {{ project.keywords }}
-        </a>
+        </div>
       </div>
-    </div>
+    </a>
     {% endfor %}
   </div>
 </div>

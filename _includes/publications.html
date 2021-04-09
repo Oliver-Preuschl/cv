@@ -7,18 +7,16 @@
   </div>
   <div class="content">
     {% for publication in publications %}
-    <div class="card shadow">
-      <div class="card-header">
-        <a href="{{ publication.url }}" target="_blank">
+    <a href="{{ publication.url }}" target="_blank">
+      <div class="card shadow">
+        <div class="card-header">
           {{ publication.name }} | {{ publication.publisher }}
-        </a>
-      </div>
-      <div class="card-body">
-        <a href="{{ publication.url }}" target="_blank">
+        </div>
+        <div class="card-body">
           {{ publication.summary }}
-        </a>
+        </div>
       </div>
-    </div>
+    </a>
     {% endfor %}
   </div>
 </div>
