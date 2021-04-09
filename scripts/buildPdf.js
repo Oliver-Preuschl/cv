@@ -6,7 +6,7 @@ const puppeteer = require('puppeteer');
   await page.goto('http://127.0.0.1:4000/', {
     waitUntil: 'networkidle2',
   });
-  await page.pdf({ path: 'cv.pdf', format: 'a4' });
+  await page.pdf({ path: 'pdf/cv.pdf', format: 'a4' });
 
   await browser.close();
 })();
