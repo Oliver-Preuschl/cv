@@ -220,15 +220,15 @@ body {
   text-align: left;
 }
 
-.main .section .card .card-body-details{
+.main .section .card .card-body-details {
   margin-top: 3mm;
   padding-left: 1mm;
 }
 
-.main .section .card .card-body-details ul{
+.main .section .card .card-body-details ul {
 }
 
-.main .section .card .card-body-details li{
+.main .section .card .card-body-details li {
   display: list-item;
   list-style-type: square;
 }
