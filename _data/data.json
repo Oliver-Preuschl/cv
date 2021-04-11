@@ -223,17 +223,17 @@
         {
           "name": "Internal",
           "projects": [
-            "DocXpert - App Developement - Native Docx and PDF generation in Salesforce using merge templates",
-            "Development of developer supporting toolkits and frameworks (TriggerDispatcher, Logging, TestData, BatchJob, Rest Service, UI Controls, Application State, ...)",
+            "DocXpert - App Development - Native Docx and PDF generation in Salesforce using merge templates",
+            "Creation of developer supporting toolkits and frameworks (TriggerDispatcher, Logging, TestData, BatchJob, Rest Service, UI Controls, Application State, ...)",
             "Development of internal tools (naming conventions, CI/CD pipelines, ...)",
             "Prototype Development"
           ]
         },
         {
-          "name": "Subset of Customer Projects",
+          "name": "Subset of Customer Projects (Salesforce)",
           "projects": [
-            "Implementation of a bonus card program | Retail | Identity, Community, Service, Integrations | > 1 Million Users",
-            "Implementation of an identity provider to consolidate several logins for apps, websites, order systems, ... | Soccer Club | Identity, Community, Service, Integrations | > 200000 Million Users",
+            "Implementation of a bonus card program | Retail Industry | Identity, Community, Service, Integrations | > 2 Million Users",
+            "Implementation of an identity provider to consolidate several logins for apps, websites, order systems, ... | German Soccer Club | Identity, Community, Service, Integrations | > 200000 Users",
             "Service Cloud Implementation | Beverage Industry | Service, Integrations, Mobile App"
           ]
         }
@@ -269,28 +269,28 @@
   "projects": [
     {
       "name": "sfdx-package-dev-template",
-      "type": "CI/CD Template | Private",
+      "type": "CI/CD Template",
       "keywords": "SFDX, GitHub Actions",
       "description": "Template for a CI/CD supported Salesforce package creation development workflow",
       "url": "https://github.com/Oliver-Preuschl/sfdx-package-dev-template"
     },
     {
       "name": "sfdx-alfred",
-      "type": "Library | Private",
+      "type": "Library",
       "keywords": "SFDX, Alfred, Node.js",
       "description": "Open Source Project - Alfred 4 SFDX Package Development Workflow",
       "url": "https://github.com/Oliver-Preuschl/alfred-sfdx"
     },
     {
       "name": "lwc-das",
-      "type": "Library | Private",
+      "type": "Library",
       "keywords": "Salesforce, LWC, Javascript",
       "description": "Open Source Project - Loose Coupling of LWCs in the Salesforce Lightning App Builder using Distributed Application State Management",
       "url": "https://github.com/Oliver-Preuschl/lwc-das"
     },
     {
       "name": "EmailLiveConnect for Gmail™",
-      "type": "Application | Private",
+      "type": "Application",
       "keywords": "Salesforce, AppExchange",
       "description": "Salesforce Gmail Integration",
       "url": "https://appexchange.salesforce.com/listingDetail?listingId=a0N3A00000EFnDoUAL"

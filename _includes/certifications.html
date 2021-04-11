@@ -6,9 +6,13 @@
 </div>
 {% for certification in certifications %}
 <div class="certification">
+  {% if certification.url %}
   <a href="{{ certification.url }}" target="_blank">
     {{ certification.issuer }} {{ certification.name }}
   </a>
+  {% else %}
+  {{ certification.issuer }} {{ certification.name }}
+  {% endif %}
 </div>
 {% endfor %}
 
