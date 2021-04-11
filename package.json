@@ -1,0 +1,12 @@
+{
+  "name": "jekyll-json-schema-cv",
+  "version": "0.1.0",
+  "desciption": "",
+  "scripts": {
+    "serve": "bundle exec jekyll serve",
+    "buildPdf": "node scripts/buildPdf.js"
+  },
+  "dependencies": {
+    "puppeteer": "^8.0.0"
+  }
+}
