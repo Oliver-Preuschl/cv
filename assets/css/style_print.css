@@ -229,6 +229,14 @@ body {
 }
 
 .main .section .card .card-body-details {
+}
+
+.main .section .card .card-body-details .card-body-details-header {
+  margin-top: 5mm;
+  border-bottom: 1px solid;
+}
+
+.main .section .card .card-body-details .card-body-details-list {
   margin-top: 3mm;
   padding-left: 1mm;
 }
