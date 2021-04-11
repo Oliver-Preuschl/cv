@@ -15,17 +15,37 @@
         <div class="card-body">
           {{ workItem.startDate }} - {{ workItem.endDate }} | {{ workItem.position }}
         </div>
+        {% if workItem.highlights %}
         <div class="card-body-details">
-          <ul>
-            {% for highlight in workItem.highlights %}
-            <li>
+          <div class="card-body-details-list">
+            <ul>
+              {% for highlight in workItem.highlights %}
+              <li>
             <span>
               {{ highlight }}
             </span>
-            </li>
-            {% endfor %}
-          </ul>
+              </li>
+              {% endfor %}
+            </ul>
+          </div>
         </div>
+        {% endif %}
+        {% if workItem.projectGroups %}
+        <div class="card-body-details">
+          {% for projectGroup in workItem.projectGroups %}
+          <div class="card-body-details-header">{{ projectGroup.name }}</div>
+          <div class="card-body-details-list">
+            <ul>
+              {% for project in projectGroup.projects %}
+              <li>
+                <span>{{ project }}</span>
+              </li>
+              {% endfor %}
+            </ul>
+          </div>
+          {% endfor %}
+        </div>
+        {% endif %}
       </div>
     </a>
     {% endfor %}

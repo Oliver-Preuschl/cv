@@ -215,29 +215,29 @@
   "work": [
     {
       "name": "H+W Consult GmbH",
-      "position": "Technical Architect | Head of Technology",
-      "description": "Salesforce Partner since 2001",
-      "startDate": "April 2019",
-      "endDate": "today",
-      "url": "https://hundw.de"
-    },
-    {
-      "name": "H+W Consult GmbH",
-      "position": "Technical Architect",
+      "position": "Technical Architect & Head of Technology (since April 2019)",
       "startDate": "January 2012",
-      "endDate": "March 2019",
+      "endDate": "today",
       "description": "Salesforce Partner since 2001",
-      "highlights": [
-        "DocXpert - App Developement - Native Docx and PDF generation in Salesforce using merge templates",
-        "Development of developer supporting toolkits and frameworks (TriggerDispatcher, Logging, TestData, BatchJob, Rest Service, UI Controls, Application State, ...)",
-        "Development of internal tools (naming conventions, CI/CD pipelines, ...)",
-        "Prototype Development",
-        "Implementation of a bonus card program | Retail | Identity, Community, Service, Integrations | > 1 Million Users",
-        "Implementation of an identity provider to consolidate several logins for apps, websites, order systems, ... | Soccer Club | Identity, Community, Service, Integrations | > 200000 Million Users",
-        "Service Cloud Implementation | Beverage | Service, Integrations, Mobile App",
-        "..."
-      ],
-      "url": "https://hundw.de"
+      "projectGroups": [
+        {
+          "name": "Internal",
+          "projects": [
+            "DocXpert - App Developement - Native Docx and PDF generation in Salesforce using merge templates",
+            "Development of developer supporting toolkits and frameworks (TriggerDispatcher, Logging, TestData, BatchJob, Rest Service, UI Controls, Application State, ...)",
+            "Development of internal tools (naming conventions, CI/CD pipelines, ...)",
+            "Prototype Development"
+          ]
+        },
+        {
+          "name": "Subset of Customer Projects",
+          "projects": [
+            "Implementation of a bonus card program | Retail | Identity, Community, Service, Integrations | > 1 Million Users",
+            "Implementation of an identity provider to consolidate several logins for apps, websites, order systems, ... | Soccer Club | Identity, Community, Service, Integrations | > 200000 Million Users",
+            "Service Cloud Implementation | Beverage Industry | Service, Integrations, Mobile App"
+          ]
+        }
+      ]
     },
     {
       "name": "Mindsquare GmbH",
@@ -257,11 +257,11 @@
       "name": "Rechen- und Kommunikationszentrum der RWTH Aachen",
       "position": "Student Assistant, Research Assistant, Research Employee",
       "startDate": "March 2005",
-      "endDate": "December 20010",
+      "endDate": "September 2010",
       "description": "",
       "highlights": [
         "Administration & analysis of linux based grid computing software",
-        "Further development of the software which I developed during my diploma thesis in close collaboration with the excellence cluster \"Integrative Produktionstechnik für Hochlohnländer\""
+        "Further development of software which I developed during my diploma thesis in close collaboration with the excellence cluster \"Integrative Produktionstechnik für Hochlohnländer\""
       ],
       "url": "https://www.itc.rwth-aachen.de"
     }
