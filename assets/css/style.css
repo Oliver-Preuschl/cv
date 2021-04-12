@@ -1,10 +1,22 @@
+---
+bodyBackgroundColor: "#717775"
+pageBackgroundColor: "#f5f5f5"
+sidebarBackgroundColor: "#292929"
+mainHeaderBackgroundColor: "#2e634b"
+mainHeaderColor: "rgba(255, 255, 255, 0.75)"
+sectionHeaderColor: "#4a4a4a"
+cardBackgroundColor: "#4a4a4a"
+contentColor: "rgba(255, 255, 255, 0.75)"
+darkContentColor: "rgba(255, 255, 255, 0.5)"
+---
+
 html {
   -webkit-print-color-adjust: exact;
 }
 
 body {
   margin: 0;
-  background: #717775;
+  background: {{ page.bodyBackgroundColor }};
 }
 
 .page {
@@ -13,7 +25,7 @@ body {
   margin-right: auto;
   margin-top: 10mm;
   margin-bottom: 10mm;
-  background: #f5f5f5;
+  background: {{ page.pageBackgroundColor }};
 }
 
 .resume {
@@ -32,8 +44,8 @@ body {
 .sidebar {
   padding: 0;
   text-align: left;
-  color: rgba(255, 255, 255, 0.75);
-  background-color: #292929;
+  color: {{ page.contentColor }};
+  background-color: {{ page.sidebarBackgroundColor }};
   overflow: hidden;
   display: block;
   font-size: 10pt;
@@ -51,7 +63,7 @@ body {
 }
 
 .sidebar .header {
-  color: rgba(255, 255, 255, 0.5);
+  color: {{ page.darkContentColor }};
   text-transform: uppercase;
   letter-spacing: 3pt;
   font-size: 10pt;
@@ -74,7 +86,7 @@ body {
   width: 20%;
   float: left;
   text-align: left;
-  color: rgba(255, 255, 255, 0.5);
+  color: {{ page.darkContentColor }};
 }
 
 .sidebar .basic .text {
@@ -98,7 +110,7 @@ body {
   width: 20%;
   float: left;
   text-align: left;
-  color: rgba(255, 255, 255, 0.5);
+  color: {{ page.darkContentColor }};
 }
 
 .sidebar .language .language-right {
@@ -115,7 +127,7 @@ body {
 
 .sidebar .skills .skill {
   display: block;
-  border: 1px solid rgba(255, 255, 255, 0.75);
+  border: 1px solid {{ page.contentColor }};
   margin-top: 1mm;
   margin-right: 1mm;
   padding: 1mm;
@@ -126,7 +138,7 @@ body {
   margin-left: 8%;
   margin-right: 8%;
   margin-top: 3mm;
-  border-left: 3px solid rgba(255, 255, 255, 0.5);
+  border-left: 3px solid {{ page.darkContentColor }};
   padding-left: 1mm;
 }
 
@@ -135,8 +147,8 @@ body {
 
 .main .mainheader {
   width: calc(100% - 10mm);
-  background-color: #2e634b;
-  color: rgba(255, 255, 255, 0.75);
+  background-color: {{ page.mainHeaderBackgroundColor }};
+  color: {{ page.mainHeaderColor }};
   font-weight: 300;
   padding: 5mm;
   margin-bottom: 5mm;
@@ -157,7 +169,7 @@ body {
 }
 
 .main .section .section-header {
-  color: #4a4a4a;
+  color: {{ page.sectionHeaderColor }};
   text-transform: uppercase;
   letter-spacing: 3pt;
   font-size: 10pt;
@@ -180,8 +192,8 @@ body {
   margin-left: auto;
   margin-bottom: 5mm;
   padding: 5mm;
-  background-color: #4a4a4a;
-  color: rgba(255, 255, 255, 0.75);
+  background-color: {{ page.cardBackgroundColor }};
+  color: {{ page.contentColor }};
   font-size: 10pt;
   font-weight: 300;
   page-break-inside: avoid;
@@ -252,7 +264,7 @@ body {
 .main .section .card .card-footer {
   margin-top: 3mm;
   font-style: italic;
-  color: rgba(255, 255, 255, 0.5);
+  color: {{ page.darkContentColor }};
 }
 
 a {
