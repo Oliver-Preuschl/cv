@@ -83,6 +83,9 @@
       "name": "Web Development"
     },
     {
+      "name": "AI"
+    },
+    {
       "name": "CI/CD"
     },
     {
@@ -148,6 +151,21 @@
     },
     {
       "name": "Certified Community Cloud Consultant",
+      "issuer": "Salesforce",
+      "url": "https://trailhead.salesforce.com/credentials/certification-detail-print?searchString=5FWIhfEMTsDNgntekRFApR3G5NhfHOMlKW0u5sDbOzBKCaxSXUiiED6p2EQ+4vQr"
+    },
+    {
+      "name": "Certified Data Cloud Consultant",
+      "issuer": "Salesforce",
+      "url": "https://trailhead.salesforce.com/credentials/certification-detail-print?searchString=5FWIhfEMTsDNgntekRFApR3G5NhfHOMlKW0u5sDbOzBKCaxSXUiiED6p2EQ+4vQr"
+    },
+    {
+      "name": "Certified AI Associate",
+      "issuer": "Salesforce",
+      "url": "https://trailhead.salesforce.com/credentials/certification-detail-print?searchString=5FWIhfEMTsDNgntekRFApR3G5NhfHOMlKW0u5sDbOzBKCaxSXUiiED6p2EQ+4vQr"
+    },
+    {
+      "name": "Certified AI Specialist",
       "issuer": "Salesforce",
       "url": "https://trailhead.salesforce.com/credentials/certification-detail-print?searchString=5FWIhfEMTsDNgntekRFApR3G5NhfHOMlKW0u5sDbOzBKCaxSXUiiED6p2EQ+4vQr"
     },
